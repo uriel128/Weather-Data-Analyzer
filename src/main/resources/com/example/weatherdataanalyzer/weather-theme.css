@@ -1,0 +1,133 @@
+.root-pane {
+    -brand-bg: linear-gradient(to bottom right, #f6f9fc, #eef4fb 45%, #deebff);
+    -brand-card: rgba(255, 255, 255, 0.88);
+    -brand-accent: #106ba3;
+    -brand-accent-soft: #1f7ab8;
+    -brand-border: #c7d8ea;
+    -brand-text: #1f2a44;
+    -brand-muted: #4c5d7b;
+    -fx-background-color: -brand-bg;
+    -fx-font-family: "Avenir Next", "Segoe UI", sans-serif;
+}
+
+.heading {
+    -fx-font-size: 30px;
+    -fx-font-weight: 800;
+    -fx-text-fill: -brand-text;
+}
+
+.subheading {
+    -fx-font-size: 14px;
+    -fx-text-fill: -brand-muted;
+}
+
+.file-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #2f466f;
+}
+
+.button {
+    -fx-background-radius: 14;
+    -fx-padding: 10 16;
+    -fx-font-size: 13px;
+    -fx-font-weight: 700;
+    -fx-cursor: hand;
+}
+
+.primary-button {
+    -fx-background-color: -brand-accent;
+    -fx-text-fill: white;
+}
+
+.primary-button:hover {
+    -fx-background-color: -brand-accent-soft;
+}
+
+.secondary-button {
+    -fx-background-color: white;
+    -fx-border-color: -brand-border;
+    -fx-border-radius: 14;
+    -fx-text-fill: -brand-text;
+}
+
+.combo-box, .text-field, .table-view, .text-area {
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: -brand-border;
+    -fx-background-color: -brand-card;
+}
+
+.text-field {
+    -fx-padding: 8 10;
+}
+
+.table-view {
+    -fx-table-cell-border-color: transparent;
+    -fx-padding: 6;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: rgba(16, 107, 163, 0.12);
+    -fx-background-radius: 10 10 0 0;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: rgba(16, 107, 163, 0.16);
+}
+
+.output {
+    -fx-font-family: "JetBrains Mono", "SF Mono", monospace;
+    -fx-font-size: 12px;
+}
+
+.month-panel {
+    -fx-background-color: rgba(255, 255, 255, 0.84);
+    -fx-background-radius: 14;
+    -fx-border-color: -brand-border;
+    -fx-border-radius: 14;
+    -fx-padding: 10;
+    -fx-pref-width: 560;
+    -fx-min-width: 460;
+    -fx-pref-height: 360;
+}
+
+.list-view {
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: -brand-border;
+    -fx-background-color: -brand-card;
+}
+
+.list-cell.selected-day {
+    -fx-background-color: rgba(16, 107, 163, 0.22);
+    -fx-font-weight: 700;
+}
+
+.list-cell.dimmed-day {
+    -fx-text-fill: #8a97ad;
+}
+
+.card-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: 800;
+    -fx-text-fill: -brand-text;
+}
+
+.date-card {
+    -fx-background-color: linear-gradient(to right, rgba(16, 107, 163, 0.16), rgba(31, 122, 184, 0.08));
+    -fx-background-radius: 16;
+    -fx-border-color: rgba(16, 107, 163, 0.25);
+    -fx-border-radius: 16;
+    -fx-padding: 14;
+}
+
+.date-card-text {
+    -fx-font-family: "Avenir Next", "Segoe UI", sans-serif;
+    -fx-font-size: 15px;
+    -fx-font-weight: 700;
+}
+
+.summary-text {
+    -fx-font-size: 15px;
+    -fx-font-family: "Avenir Next", "Segoe UI", sans-serif;
+}
